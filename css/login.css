@@ -1,0 +1,238 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --body-color:#FFFDF8;
+}
+body{
+    background-color: var(--body-color);
+    font-family: Poppins;
+
+}
+.contenier-login{
+    display: flex;
+    align-items: center;
+    gap: 67px;
+    /* justify-content:space-around; */
+}
+.image-login img{
+    width: 736px;
+    height: 963px;
+    top: 28px;
+    left: 26px;
+    border-radius: 32px;
+    margin: 30px 0px 33px 26px;
+}
+.title-login{
+    padding:154px 67px 148.68px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-login img{
+     padding-left:25%;
+}
+.adress-login h1{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -0.16px;
+    text-align: center;
+    padding-bottom:16px;
+
+}
+.adress-login p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.form-login{
+padding-top: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:52px;
+}
+label{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding-bottom:8px;
+    color:#264653;
+}
+.inp{
+    width: 512px;
+    height: 53px;
+    border-radius: 999px;
+    padding: 16px; 
+    border-width: 1.34px;
+    border: 1.34px solid  #F0925C1A;
+    background-color: #F0925C0D;
+}
+.radio{
+    border: 1px solid  #98A2B3;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+
+}
+.Remember-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+.Remember-me p a{
+    text-decoration: none;
+    color: #ED7B39;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.login-btn{
+border-radius: 999px;
+padding: 16px 234px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+border: none;
+background-image: linear-gradient(135deg, #E76F51 0%, #F4A261 100%);
+margin-top:32px;
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+}
+.or {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.or::before,
+.or::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid gray; 
+}
+
+.or span {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #475467;
+}
+/* .btn-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.sochail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.btn-right button{
+   padding: 12px 82px;
+   display: flex; 
+   align-items: center;
+   background-color: transparent;
+   border: 0.67px solid #EAECF0;
+   border-radius:24px;
+   span{
+    padding-left:6.99px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#505F6D;
+
+   }
+}
+.btn-left button{
+   padding: 12px 82px;
+   display: flex; 
+   align-items: center;
+   background-color: transparent;
+   border: 0.67px solid #EAECF0;
+   border-radius:24px;
+   span{
+    padding-left:6.99px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#505F6D;
+
+   }
+}
+.have-an{
+    p{
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top:32px;
+        
+        span a{
+            color:#ED7B39;
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: SemiBold;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+    }
+}
+@media (max-width: 992px) {
+  /* container responsive */
+}
+
+
+/* BreakPoint: 768px tablet portrait */
+@media (max-width: 768px) {
+    
+}
+/* BreakPoint: 576px mobile screens */
+@media (max-width: 576px) {
+  .image-login img{
+    display: none;
+  }
+}
+
+/* BreakPoint: 380px extra small mobil screens */
+@media (max-width: 380px) {
+  /* hero responsive */
+
+}
